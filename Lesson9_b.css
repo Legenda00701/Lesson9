@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+.vegetables {
+    list-style: none;
+    width: 200px;
+}
+.vegetables li {
+    background-color: #ffffff;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.vegetables li:first-child {
+    background-color: #c8f8fe;
+    font-weight: bold;
+}
+.vegetables li:nth-child(5) {
+    background-color: #fad59e;
+    font-style: italic;
+}
+.vegetables li:last-child {
+    background-color: #ade6af;
+    text-decoration: underline;
+}
+.vegetables li:hover {
+    background-color: #6143f7;
+}
